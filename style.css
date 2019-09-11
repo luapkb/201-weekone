@@ -1,0 +1,15 @@
+
+        body {
+            background-color: brown;
+        }
+        input {
+            width:100%;
+            background-color: blueviolet;
+            font-size:  25px;
+            padding: 5%;
+        }
+        div{
+           width:30%;
+           margin: auto;
+           margin-top:50vh;
+        }
