@@ -5,22 +5,22 @@ alert('HELLO ' + name + ',' + ' thanks for playing!!')
 console.log('name promt' + name)
 
 
-var nameQ = prompt('is my name Paul?')
+var nameQ = prompt('do you know my name?')
 var answer = nameQ.toLowerCase()
 
 if (answer ==='yes' || answer === 'y'){
-    alert('You betcha');
+    alert('did you know my name was Paul');
     console.log('responce one' + answer)
 
   }  else {
-      alert ('you obviously dint type yes. It is indeed Paul')
+      alert ('you obviously dint type yes. thats ok, my name is Paul')
       console.log ('response one ' + answer )
 }
 
 
  
 
-var born = prompt ('do you think Im a native wasintonion?')
+var born = prompt ('do you think Im a native washingtonion?')
 var answer = born.toLowerCase()
 if (answer === 'no' || answer === 'n'){
     alert ('thats right I was born in wyoming');
