@@ -1,15 +1,39 @@
+body {
+    background-color: brown;
+}
 
-        body {
-            background-color: brown;
-        }
-        input {
-            width:100%;
-            background-color: blueviolet;
-            font-size:  25px;
-            padding: 5%;
-        }
-        div{
-           width:30%;
-           margin: auto;
-           margin-top:50vh;
-        }
+input {
+    width: 100%;
+    background-color: blueviolet;
+    font-size: 25px;
+    padding: 5%;
+}
+
+div {
+    width: 30%x;
+    margin: auto;
+    margin-top: 50vh;
+}
+
+.box {
+    background-color: purple;
+    color: red;
+    margin: 4%;
+    border: 20px solid red;
+    padding: 2%;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    overflow: auto;
+}
+
+#topten {
+    position: fixed;
+    bottom: 0;
+    right: 300;
+}
+
+#tenlist {
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
