@@ -1,12 +1,7 @@
+/* indexhtml */
+
 body {
     background-color: brown;
-}
-
-input {
-    width: 30%;
-    background-color: blueviolet;
-    font-size: 25px;
-    padding: 5%;
 }
 
 div {
@@ -14,6 +9,17 @@ div {
     margin: auto;
     margin-top: 50vh;
 }
+
+input {
+    width: 30%;
+    background-color: blueviolet;
+    font-size: 25px;
+    padding: 5%;
+    margin: auto;
+}
+
+
+/* clicktocontinue */
 
 .box {
     background-color: purple;
@@ -30,7 +36,7 @@ div {
 #topten {
     position: fixed;
     bottom: 0;
-    right: 300;
+    left: 20px;
 }
 
 #tenlist {

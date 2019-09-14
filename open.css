@@ -1,0 +1,6 @@
+/* Z index sets priority ontop */
+
+.class P {
+    position: relative;
+    /* z-index: 4 (depth higher sets on top ); */
+}
